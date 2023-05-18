@@ -1,0 +1,4 @@
+Como selecionar automaticamente os numeros na string se tiverem mais de 2 digito
+slice
+
+aprender split

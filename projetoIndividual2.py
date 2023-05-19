@@ -23,10 +23,10 @@ n2 = 0
 n3 = 0
 n4 = 0
 
-usuarioE = int(input("Digite a nota minima para a Entrevista: "))
-usuarioT = int(input("Digite a nota minima para o Teste Teórico: "))
-usuarioP = int(input("Digite a nota minima para o Teste Prático: "))
-usuarioS = int(input("Digite a nota minima para as Soft Skills: "))
+usuarioE = int(input("Digite a nota mínima da Entrevista: "))
+usuarioT = int(input("Digite a nota mínima do Teste Teórico: "))
+usuarioP = int(input("Digite a nota mínima do Teste Prático: "))
+usuarioS = int(input("Digite a nota mínima de Soft Skills: "))
 
 filtraCandidatos(n1, n2, n3, n4, candidato1)
 filtraCandidatos(n1, n2, n3, n4, candidato2)
@@ -36,13 +36,13 @@ filtraCandidatos(n1, n2, n3, n4, candidato5)
 
 if candidato1 in listaAprovados:
     print("Candidato 1 ", candidato1)
-elif candidato2 in listaAprovados:
+if candidato2 in listaAprovados:
     print("Candidato 2 ", candidato2)
-elif candidato3 in listaAprovados:
+if candidato3 in listaAprovados:
     print("Candidato 3 ", candidato3)
-elif candidato4 in listaAprovados:
+if candidato4 in listaAprovados:
     print("Candidato 4 ", candidato4)
-elif candidato5 in listaAprovados:
+if candidato5 in listaAprovados:
     print("Candidato 5 ", candidato5)
 else:
     print("Nenhum candidato aprovado!")

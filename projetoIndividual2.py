@@ -43,6 +43,7 @@ filtraCandidatos(entrevista, testeTeorico, testePratico, softSkills, candidato4)
 filtraCandidatos(entrevista, testeTeorico, testePratico, softSkills, candidato5)
 
 #Pilha de ifs para printar cada candidato da lista, de acordo com o seu número no cadastro
+#Else para caso de nenhum candidato ter sido aprovado
 if candidato1 in listaAprovados:
     print("Candidato 1 ", candidato1)
 if candidato2 in listaAprovados:
